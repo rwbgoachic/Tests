@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@paysurity/security": "1.2.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "dotenv-encrypted": "^1.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.2",
