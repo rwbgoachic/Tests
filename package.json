@@ -5,7 +5,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "vitest",
-    "test:load": "node tests/load-test.js"
+    "test:load": "node tests/load-test.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@paysurity/security": "1.2.1",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "nodemon": "^3.0.2",
     "autocannon": "^7.12.0",
-    "vitest": "^1.0.4"
+    "vitest": "^1.0.4",
+    "cypress": "^13.6.1"
   }
 }
